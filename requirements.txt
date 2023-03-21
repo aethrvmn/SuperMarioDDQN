@@ -1,0 +1,7 @@
+gym==0.26.2
+gym_super_mario_bros==7.4.0
+matplotlib==3.5.1
+nes_py==8.2.1
+numpy==1.22.3
+torch==2.0.0
+torchvision==0.15.1

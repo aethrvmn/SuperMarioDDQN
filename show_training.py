@@ -29,7 +29,7 @@ env.reset()
 save_dir = None
 
 # Loading the checkpoint
-checkpoint = Path('mario_net_3.chkpt')
+checkpoint = Path('mario_net.chkpt')
 # Initializing mario and the logger
 mario = Mario(state_dim=(4, 84, 84), action_dim=env.action_space.n, save_dir=save_dir, checkpoint = checkpoint)
 mario.exploration_rate = mario.exploration_rate_min
